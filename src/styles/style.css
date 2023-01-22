@@ -1,0 +1,19 @@
+body {
+    overflow-x: hidden;
+    height: 100%;
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+@media (max-width: 768px) {
+    .pb-xs-4 {
+        padding-bottom: 1.5rem;
+    }
+}
+
+.ajustHeight {
+    min-height: calc(100vh - 8.5rem);
+}
